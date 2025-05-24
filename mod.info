@@ -1,0 +1,6 @@
+{mod
+	{name "Increased Supply"}
+	{desc "Increased supply"}
+	{minGameVersion "any"}
+	{maxGameVersion "any"}
+}
