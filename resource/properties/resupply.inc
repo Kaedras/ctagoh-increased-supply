@@ -35,7 +35,7 @@
 	{item "mortarger_80" "sm"		"ammo" 1  {value 5}}
 	{item "mortarger_100" "he"		"ammo" 1  {value 10}}
 	{item "mortarger_100" "sm"		"ammo" 1  {value 10}}
-	{item "mortarger_120" "he"		"ammo" 1  {value 15}}
+	{item "mortarger_120" "he"		"ammo" 1  {value 10}}
 
 ;// Grenade
 	{item "grenade" "m24"					1  {value 5}}
@@ -86,7 +86,7 @@
 	{item "mortarrus_50" "he"		"ammo" 1  {value 3}}
 	{item "mortarrus_82" "he"		"ammo" 1  {value 5}}
 	{item "mortarrus_82" "sm"		"ammo" 1  {value 10}} ;// is actually "ic"
-	{item "mortarrus_120" "he"		"ammo" 1  {value 15}}
+	{item "mortarrus_120" "he"		"ammo" 1  {value 10}}
 	{item "mortarrus_120" "sm"		"ammo" 1  {value 15}}
 	{item "mortarrus_120" "ic"		"ammo" 1  {value 15}}
 
@@ -103,13 +103,20 @@
 
 (define "items_light_fin"
 
+;// pistol
+	{item "m1907_mag"				"ammo" 14 {value 1}}
+
 ;// smg
 	{item "suomi_drum"				"ammo" 72 {value 4}}
 	{item "suomi_stick"				"ammo" 50 {value 3}}
 	{item "bergmann_stick"			"ammo" 50 {value 3}}
 
+;// rifle
+	{item "rifle_swe" "clip"		"ammo" 10 {value 1}}
+
 ;// mg
 	{item "chauchat"				"ammo" 20 {value 2}}
+	{item "kg_m21_mag"				"ammo" 20 {value 2}}
 	{item "m26"						"ammo" 20 {value 2}}
 	{item "madsen"					"ammo" 30 {value 3}}
 	{item "mgun_rus" "l33_36"		"ammo" 75 {value 5}}
@@ -128,6 +135,7 @@
 	{item "grenade" "molotov_bundle_fin"	1  {value 10}}
 	{item "grenade" "molotov_cocktail_fin"	1  {value 10}}
 
+	{item "grenade" "svkkr_pm"				1  {value 5}}
 	{item "grenade" "m42_wp"				1  {value 5}}
 	{item "grenade" "m43_smoke"				1  {value 5}}
 )
@@ -183,7 +191,7 @@
 	{item "mortarusa_81" "he2"		"ammo" 1  {value 5}}
 	{item "mortarusa_81" "sm"		"ammo" 1  {value 5}}
 	{item "mortarusa_81" "wp"		"ammo" 1  {value 10}}
-	{item "mortarusa_107" "he"		"ammo" 1  {value 15}}
+	{item "mortarusa_107" "he"		"ammo" 1  {value 10}}
 	{item "mortarusa_107" "sm"		"ammo" 1  {value 15}}
 	{item "mortarusa_107" "wp"		"ammo" 1  {value 15}}
 
@@ -349,7 +357,7 @@
 	{item "bulletger_170"		"he"		"ammo" 1  {value 60}}
 
 	{item "mortarger_200"		"he"		"ammo" 1  {value 30}}
-	{item "mortarger_200"		"sm"		"ammo" 1  {value 5}}
+	{item "mortarger_200"		"sm"		"ammo" 1  {value 15}}
 
 	{item "bulletger_210"		"he"		"ammo" 1 {value 100}}
 
@@ -466,11 +474,20 @@
 	{item "bullet_37x257" "fin" "ap"		"ammo" 2 {value 5}}
 	{item "bullet_37x257" "fin" "he"		"ammo" 2 {value 5}}
 
+	{item "bulletrus_45"		"apcbc"		"ammo" 2 {value 5}}		;// Finnish shell just has to have rus entity name for gun compatibility
+
 	{item "bullet_47x195" "fin" "aphe"		"ammo" 2 {value 5}}
 	{item "bullet_47x195" "fin" "he"		"ammo" 2 {value 5}}
 
 	{item "bullet_75x657" "fin" "apbc"		"ammo" 1 {value 5}}
 	{item "bullet_75x657" "fin" "he"		"ammo" 1 {value 5}}
+
+	{item "bulletger_75_l43"	"apcbc"		"ammo" 1 {value 5}}		;// Finnish shell just has to have ger entity name for gun compatibility
+	{item "bulletrus_76"		"apcbc"		"ammo" 1 {value 5}}		;// Finnish shell just has to have rus entity name for gun compatibility
+	{item "bulletrus_76"		"heatb"		"ammo" 1 {value 10}}	;// Finnish shell just has to have rus entity name for gun compatibility
+	{item "bulletrus_76"		"heatc"		"ammo" 1 {value 10}}	;// Finnish shell just has to have rus entity name for gun compatibility
+
+	{item "bulletrus_76_l55"	"apcbc"		"ammo" 1 {value 5}}		;// Finnish shell just has to have rus entity name for gun compatibility
 
 	{item "bullet_84x294" "fin" "ap"		"ammo" 1 {value 5}}
 	{item "bullet_84x294" "fin" "he"		"ammo" 1 {value 5}}
@@ -479,8 +496,9 @@
 	{item "bullet_105x764" "he"				"ammo" 1 {value 15}}
 	{item "bullet_107x442" "fin" "he"		"ammo" 1 {value 15}}
 
-	{item "bullet_114x86" "fin" "he"		"ammo" 1 {value 5}}
-	{item "bullet_114x86" "fin" "heat"		"ammo" 1 {value 10}}
+	{item "bullet_114x86" "fin" "he"		"ammo" 1 {value 20}}
+	{item "bullet_114x86" "fin" "wp"		"ammo" 1 {value 15}}
+	{item "bullet_114x86" "fin" "heat"		"ammo" 1 {value 20}}
 
 	{item "bullet_120_l27" "fin" "he"		"ammo" 1 {value 25}}
 
@@ -489,6 +507,8 @@
 
 	{item "bullet_155_l15" "fin" "he"		"ammo" 1 {value 50}}
 	{item "bullet_203_l16" "fin" "he"		"ammo" 1 {value 100}}
+
+	{item "mortarfin_300" "he"				"ammo" 1 {value 100}}
 )
 
 (define "items_heavy_usa"
