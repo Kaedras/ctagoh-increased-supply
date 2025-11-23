@@ -361,7 +361,7 @@
 
 	{item "bulletger_210"		"he"		"ammo" 1 {value 100}}
 
-	{item "150mm_nebelwerfer"				"ammo" 1 {value 40}} ;// 6 rockets costs 240 per salvo
+	{item "150mm_nebelwerfer"				"ammo" 1 {value 30}} ;// 6 rockets costs 180 per salvo
 	{item "210mm_nebelwerfer"				"ammo" 1 {value 50}} ;// 5 rockets costs 250 per salvo
 	{item "280mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs 360 per salvo
 	{item "300mm_nebelwerfer"				"ammo" 1 {value 60}} ;// 6 rockets costs 360 per salvo
