@@ -207,23 +207,72 @@
 
 (define "items_light_eng"
 
+;// pistol
+	{item "7_65mm_pistol"			"ammo" 8 {value 1}}
+	{item "eng_revolver_clip_38"	"ammo" 6 {value 1}}
+	{item "eng_revolver_clip_45"	"ammo" 6 {value 1}}
+
+;// smg
+	{item "sten_mag" "eng_smg"		"ammo" 32 {value 2}}
+	{item "lanchester_mag" "eng_smg""ammo" 50 {value 3}}
+
 ;// mg
-	{item "bren_mag"				"ammo" 30 {value 3}}
+	{item "bren_mag"				"ammo" 28 {value 3}}
 	{item "mgun_ger" "belt" "mk2"	"ammo" 50 {value 5}}
+	{item "vickers_berthier_mag"	"ammo" 30 {value 3}}
+	{item "lewis_mag"				"ammo" 47 {value 5}}
+	{item "vickers_go_mag"			"ammo" 96 {value 10}}
+	{item "bren_drum_mag"			"ammo" 97 {value 10}}
+	{item "mgun_eng" "belt"			"ammo" 50 {value 5}}
+	{item "hmgun_eng"				"ammo" 50 {value 5}}
 
 ;// rifle
+	{item "rifle_eng" "clip"		"ammo" 10 {value 1}}
+	{item "de_lisle_carbine_mag" 	"ammo" 10 {value 1}}
 	{item "atrifle_eng"	"ap"		"ammo" 5  {value 5}}
 	{item "atrifle_eng"	"ap2"		"ammo" 5  {value 5}}
 
+;// AT
+	{item "eng_grenade"	"he"		"ammo" 1  {value 5}}
+	{item "eng_grenade"	"heat"		"ammo" 1  {value 5}}
+	{item "piat_bomb"	"heat"		"ammo" 1  {value 10}}
+	{item "piat_bomb"	"heata"		"ammo" 1  {value 10}}
+
 ;// Light weaponry
+	{item "mortareng_50" "he"		"ammo" 1  {value 3}}
 	{item "mortareng_50" "sm"		"ammo" 1  {value 3}}
 	{item "mortareng_50" "wp"		"ammo" 1  {value 3}}
+	{item "mortareng_81" "he"		"ammo" 1  {value 5}}
+	{item "mortareng_81" "sm"		"ammo" 1  {value 5}}
+	{item "mortareng_81" "wp"		"ammo" 1  {value 10}}
+	{item "mortareng_107" "he"		"ammo" 1  {value 15}}
+	{item "mortareng_107" "sm"		"ammo" 1  {value 15}}
+	{item "mortareng_107" "wp"		"ammo" 1  {value 15}}
 
 ;// Grenade
+	{item "grenade" "no36m_early" 			1  {value 5}}
+	{item "grenade" "no36m" 				1  {value 5}}
+	{item "grenade" "no69" 					1  {value 5}}
 	{item "grenade" "no73"					1  {value 10}}
+	{item "grenade" "no74"					1  {value 10}}
 	{item "grenade" "no75"					1  {value 10}}
+	{item "grenade" "no76_ic" 				1  {value 10}}
+	{item "grenade" "no82"					1  {value 10}}
 
+	{item "grenade" "no76_ic" 				1  {value 5}}
 	{item "grenade" "no8_smoke" 			1  {value 5}}
+	{item "grenade" "no77_wp" 				1  {value 5}}
+)
+
+(define "items_light_fra"
+;// rifle
+	{item "rifle_fra" "clip"		"ammo" 10 {value 1}}
+
+;// mg
+	{item "fm_24_29_mag"			"ammo" 25 {value 2}}
+
+;// Grenade
+	{item "grenade" "mk2" 					1  {value 5}}
 )
 
 
@@ -244,11 +293,13 @@
 	{item "bandage_rus"						1 {value 1}}
 	{item "bandage_fin"						1 {value 1}}
 	{item "bandage_usa"						1 {value 1}}
+	{item "bandage_eng"						1 {value 1}}
 
 	{item "knife_ger"						1 {value 2}}
 	{item "knife_rus"						1 {value 2}}
 	{item "knife_fin"						1 {value 2}}
 	{item "knife_usa"						1 {value 2}}
+	{item "knife_eng"						1 {value 2}}
 )
 
 (define "items_medic"
@@ -257,6 +308,7 @@
 	{item "bandage_rus"						1 {value 1}}
 	{item "bandage_fin"						1 {value 1}}
 	{item "bandage_usa"						1 {value 1}}
+	{item "bandage_eng"						1 {value 1}}
 )
 
 (define "items_heavy_ger"
@@ -586,22 +638,96 @@
 )
 
 (define "items_heavy_eng"
+	{item "bulleteng_15_auto"		"ap"	"ammo" 25 {value 5}}
+
+	{item "bulleteng_20_auto" "box"	"ap"	"ammo" 20 {value 5}}
+	{item "bulleteng_20_auto" "box"	"he"	"ammo" 20 {value 5}}
+	{item "bulleteng_20_auto" "box"	"hei"	"ammo" 20 {value 5}}
+	{item "bulleteng_20_auto" "drum" "ap"	"ammo" 20 {value 5}}
+	{item "bulleteng_20_auto" "drum" "he"	"ammo" 20 {value 5}}
+	{item "bulleteng_20_auto" "drum" "hei"	"ammo" 20 {value 5}}
+
+	{item "bullet_37x257" "eng"		"ap"	"ammo" 2 {value 5}}
+	{item "bullet_37x257" "eng"		"he"	"ammo" 2 {value 5}}
+
 	{item "bulleteng_40"		"ap"		"ammo" 2 {value 5}}
+	{item "bulleteng_40"		"ap2"		"ammo" 2 {value 5}}
 	{item "bulleteng_40"		"apcbc"		"ammo" 2 {value 5}}
+	{item "bulleteng_40"		"he"		"ammo" 2 {value 5}}
+	{item "bulleteng_40" "littlejohn" "apcr" "ammo" 1 {value 5}}
+	{item "bulleteng_40" "littlejohn" "apcr2" "ammo" 1 {value 5}}
+
+	{item "bullet_40x331_auto" "eng" "apbc"	"ammo" 10 {value 5}}
+	{item "bullet_40x331_auto" "eng" "sap"	"ammo" 10 {value 5}}
+	{item "bullet_40x331_auto" "eng" "he"	"ammo" 10 {value 5}}
 
 	{item "bullet_57x441" "eng"	"ap"		"ammo" 1 {value 5}}
 	{item "bullet_57x441" "eng"	"apc"		"ammo" 1 {value 5}}
 	{item "bullet_57x441" "eng"	"apcbc"		"ammo" 1 {value 5}}
+	{item "bullet_57x441" "eng"	"apcr"		"ammo" 1 {value 5}}
 	{item "bullet_57x441" "eng"	"apds"		"ammo" 1 {value 5}}
 	{item "bullet_57x441" "eng"	"he"		"ammo" 1 {value 5}}
 
+	{item "bulleteng_76_l25"	"he"		"ammo" 1 {value 5}}
+	{item "bulleteng_76_l25"	"sm"		"ammo" 1 {value 5}}
+
+	{item "bulleteng_76"	"ap"			"ammo" 1 {value 5}}
+	{item "bulleteng_76"	"apc"			"ammo" 1 {value 5}}
 	{item "bulleteng_76"	"apcbc"			"ammo" 1 {value 5}}
 	{item "bulleteng_76"	"apds"			"ammo" 1 {value 10}}
 	{item "bulleteng_76"	"he"			"ammo" 1 {value 5}}
+	{item "bulleteng_76"	"he2"			"ammo" 1 {value 5}}
 
-	{item "bulleteng_114"		"he"		"ammo" 1 {value 10}}
+	{item "bulleteng_77"	"apcbc"			"ammo" 1 {value 5}}
+	{item "bulleteng_77"	"apds"			"ammo" 1 {value 10}}
+	{item "bulleteng_77"	"he"			"ammo" 1 {value 5}}
 
-	{item "50mm_rocket_grapnel"				"ammo" 1 {value 10}}
+	{item "bullet_84x294" "eng" "ap"		"ammo" 1 {value 5}}
+	{item "bullet_84x294" "eng" "he"		"ammo" 1 {value 5}}
+
+	{item "bulleteng_88"		"ap"		"ammo" 1 {value 5}}
+	{item "bulleteng_88" 		"he"		"ammo" 1 {value 10}}
+	{item "bulleteng_88" 		"sm"		"ammo" 1 {value 5}}
+
+	{item "bulleteng_94"		"he"		"ammo" 1 {value 5}}
+	{item "bulleteng_94" 		"heat"		"ammo" 1 {value 5}}
+	{item "bulleteng_94" 		"wp"		"ammo" 1 {value 5}}
+
+	{item "bulleteng_94_l50"	"ap"		"ammo" 1 {value 5}}
+	{item "bulleteng_94_l50" 	"aphe"		"ammo" 1 {value 5}}
+	{item "bulleteng_94_l50" 	"he"		"ammo" 1 {value 5}}
+
+	{item "bulleteng_95"		"he"		"ammo" 1 {value 5}}
+	{item "bulleteng_95" 		"heat"		"ammo" 1 {value 5}}
+	{item "bulleteng_95" 		"sm"		"ammo" 1 {value 5}}
+
+	{item "bullet_114x86" "eng"	"he"		"ammo" 1 {value 20}}
+	{item "bullet_114x86" "eng"	"wp"		"ammo" 1 {value 15}}
+
+	{item "bulleteng_114"		"he"		"ammo" 1 {value 20}}
+
+	{item "bulleteng_127"		"he"		"ammo" 1 {value 25}}
+
+	{item "bulleteng_140"		"he"		"ammo" 1 {value 40}}
+	{item "bulleteng_140"		"he2"		"ammo" 1 {value 40}}
+	{item "bulleteng_140"		"sm"		"ammo" 1 {value 20}}
+
+	{item "bulleteng_152"		"he"		"ammo" 1 {value 50}}
+	{item "bulleteng_152"		"he2"		"ammo" 1 {value 50}}
+
+	{item "bulleteng_183"		"he"		"ammo" 1 {value 60}}
+
+	{item "bulleteng_203"		"he"		"ammo" 1 {value 100}}
+
+	{item "bulleteng_230"		"he"		"ammo" 1 {value 50}} ;// AVRE Bomb
+
+	{item "50mm_rocket_grapnel"				"ammo" 1 {value 5}}
+	{item "76mm_landmattress"				"ammo" 1 {value 7}} ;// 30 rockets costs 210 per salvo
+	{item "76mm_rp3"			"he"		"ammo" 1 {value 60}} ;// 
+)
+
+(define "items_heavy_fra"
+	{item "bulletfra_25"			"ap"	"ammo" 2 {value 5}}
 )
 
 (define "items_heavy_generic"
@@ -614,6 +740,7 @@
 	{item "shovel_rus"							1 {value 5}}
 	{item "shovel_fin"							1 {value 5}}
 	{item "shovel_usa"							1 {value 5}}
+	{item "shovel_eng"							1 {value 5}}
 	{item "pickaxe"								1 {value 10}}
 	{item "tent_kit"							1 {value 5}}
 	{item "sandbag_vehicle"						1 {value 10}}
@@ -632,6 +759,8 @@
 	{item "geballteladung_3kg"					1 {value 15}}
 	{item "satchel_charge_rus"					1 {value 15}}
 	{item "satchel_charge_usa"					1 {value 15}}
+	{item "satchel_charge_eng"					1 {value 15}}
+	{item "tnt_eng"								1 {value 15}}
 	{item "compositionb_x4"						1 {value 15}}
 
 ;// grenade mine hybrid
@@ -644,6 +773,7 @@
 	{item "m2" "mine" 							1 {value 5}}
 	{item "m6" "mine" 							1 {value 5}}
 	{item "luhas" "mine" 						1 {value 5}}
+	{item "ap_shrapnel_mk1" "mine" 				1 {value 5}}
 
 	{item "m39" "mine" 							1 {value 10}}
 	{item "tm_35" "mine" 						1 {value 10}}
@@ -653,6 +783,8 @@
 	{item "tmd_b" "mine" 						1 {value 10}}
 	{item "tmd_44" "mine" 						1 {value 10}}
 	{item "m1a1" "mine" 						1 {value 10}}
+	{item "at_gs_mk4" "mine" 					1 {value 10}}
+	{item "at_gs_mk5" "mine" 					1 {value 10}}
 )
 
 ;/*=================== Item Defines End ===================*/
@@ -680,6 +812,37 @@
 	}
 )
 
+(define "supply_ammo_fixed"			;// Stationary crates in missions
+	{extender "supply_zone"
+		{resupply
+			("items_light_generic")
+			("items_light_ger")
+			("items_light_rus")
+			("items_light_eng")
+			("items_light_usa")
+			("items_light_fin")
+			("items_light_fra")
+			("items_heavy_generic")
+			("items_heavy_ger")
+			("items_heavy_rus")
+			("items_heavy_eng")
+			("items_heavy_fin")
+			("items_heavy_usa")
+		}
+		{radius				24}		;// resupply radius in meter
+		{resupplyPeriod		1}		;// resupply period in seconds
+		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
+		{limit 				2500}	;// max number of resupplies (0 = unlimited)
+	}
+	{DecalView supply_zone
+		{Sprite "supply_zone.ebm"
+			{Visibility 0.25}
+		}
+		{Layer grounddynamic}
+		{Visible 0}
+	}
+)
+
 (define "supply_ammo"				;// Carryable crates and small trailers
 	{extender "supply_zone"
 		{resupply
@@ -689,6 +852,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 			("items_heavy_generic")
 			("items_heavy_ger")
 			("items_heavy_rus")
@@ -719,6 +883,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 		}
 		{radius				60}		;// resupply radius in meter
 		{resupplyPeriod 	1}		;// resupply period in seconds
@@ -743,6 +908,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 			("items_heavy_generic")
 			("items_heavy_ger")
 			("items_heavy_rus")
@@ -773,6 +939,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 			("items_heavy_generic")
 			("items_heavy_ger")
 			("items_heavy_rus")
@@ -803,6 +970,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 		}
 		{mechanicResources {amount 10}{value 10}}
 		{radius				48}		;// resupply radius in meter
@@ -828,6 +996,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 			("items_heavy_ger")
 			("items_heavy_rus")
 			("items_heavy_eng")
@@ -857,6 +1026,7 @@
 			("items_light_eng")
 			("items_light_usa")
 			("items_light_fin")
+			("items_light_fra")
 			("items_heavy_ger")
 			("items_heavy_rus")
 			("items_heavy_eng")
