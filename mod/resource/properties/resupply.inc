@@ -799,7 +799,7 @@
 			("items_medic")
 		}
 		{radius 			20}		;// resupply radius in meter
-		{resupplyPeriod 	1}		;// resupply period in seconds
+		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				500}		;// max number of resupplies (0 = unlimited)
 	}
@@ -830,7 +830,7 @@
 			("items_heavy_usa")
 		}
 		{radius				24}		;// resupply radius in meter
-		{resupplyPeriod		1}		;// resupply period in seconds
+		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				2500}	;// max number of resupplies (0 = unlimited)
 	}
@@ -861,7 +861,7 @@
 			("items_heavy_usa")
 		}
 		{radius				40}		;// resupply radius in meter
-		{resupplyPeriod		1}		;// resupply period in seconds
+		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				2500}	;// max number of resupplies (0 = unlimited)
 	}
@@ -886,7 +886,7 @@
 			("items_light_fra")
 		}
 		{radius				60}		;// resupply radius in meter
-		{resupplyPeriod 	1}		;// resupply period in seconds
+		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				2500}	;// max number of resupplies (0 = unlimited)
 	}
@@ -917,7 +917,7 @@
 			("items_heavy_usa")
 		}
 		{radius 			60}		;// resupply radius in meter
-		{resupplyPeriod 	1}		;// resupply period in seconds
+		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				5000}	;// max number of resupplies (0 = unlimited)
 	}
@@ -948,7 +948,7 @@
 			("items_heavy_usa")
 		}
 		{radius 			60}		;// resupply radius in meter
-		{resupplyPeriod 	1}		;// resupply period in seconds
+		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				1000}	;// max number of resupplies (0 = unlimited)
 	}
@@ -974,7 +974,7 @@
 		}
 		{mechanicResources {amount 10}{value 10}}
 		{radius				48}		;// resupply radius in meter
-		{resupplyPeriod		1}		;// resupply period in seconds
+		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod	1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				5000}	;// max number of resupplies (0 = unlimited)
 	}
@@ -1004,7 +1004,7 @@
 			("items_heavy_usa")
 		}
 		{radius 			48}			;// resupply radius in meter
-		{resupplyPeriod 	1}			;// resupply period in seconds
+		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod	1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				10000}		;// max number of resupplies (0 = unlimited)
 	}
@@ -1034,7 +1034,7 @@
 			("items_heavy_usa")
 		}
 		{radius 			48}			;// resupply radius in meter
-		{resupplyPeriod 	1}			;// resupply period in seconds
+		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod 1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				20000}		;// max number of resupplies (0 = unlimited)
 	}
@@ -1054,7 +1054,7 @@
 			{item "flame_thrower" "ammo" 50 {value 1}}
 		}
 		{radius 			48}			;// resupply radius in meter
-		{resupplyPeriod 	1}			;// resupply period in seconds
+		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod 1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				%liters}	;// max number of resupplies (0 = unlimited)
 	}
@@ -1075,7 +1075,7 @@
 		}
 		{mechanicResources {amount 10}{value 10}}
 		{radius 			48}			;// resupply radius in meter
-		{resupplyPeriod 	1}			;// resupply period in seconds
+		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod 1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				2000}		;// max number of resupplies (0 = unlimited)
 	}
@@ -1096,7 +1096,7 @@
 		}
 		{mechanicResources {amount 10}{value 10}}
 		{radius 			48}			;// resupply radius in meter
-		{resupplyPeriod 	1}			;// resupply period in seconds
+		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod 1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				5000}		;// max number of resupplies (0 = unlimited)
 	}
