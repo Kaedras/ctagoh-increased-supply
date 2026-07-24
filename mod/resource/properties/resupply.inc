@@ -802,6 +802,7 @@
 		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				500}		;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -832,7 +833,8 @@
 		{radius				24}		;// resupply radius in meter
 		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				2500}	;// max number of resupplies (0 = unlimited)
+		{limit 			2500}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -863,7 +865,8 @@
 		{radius				40}		;// resupply radius in meter
 		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
-		{limit 				2500}	;// max number of resupplies (0 = unlimited)
+		{limit 			2500}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -889,6 +892,7 @@
 		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				2500}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -920,6 +924,7 @@
 		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				5000}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -951,6 +956,7 @@
 		{resupplyPeriod 	5}		;// resupply period in seconds
 		{regenerationPeriod 1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				1000}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -977,6 +983,7 @@
 		{resupplyPeriod		5}		;// resupply period in seconds
 		{regenerationPeriod	1}		;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				5000}	;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -1007,6 +1014,7 @@
 		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod	1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit				10000}		;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
@@ -1037,6 +1045,7 @@
 		{resupplyPeriod 	5}			;// resupply period in seconds
 		{regenerationPeriod 1}			;// regeneration period in seconds, +1 supply every x seconds (0 = no regeneration)
 		{limit 				20000}		;// max number of resupplies (0 = unlimited)
+		(mod "gameclass:campaign_capture_the_flag" {regenerationPeriod 1})
 	}
 	{DecalView supply_zone
 		{Sprite "supply_zone.ebm"
