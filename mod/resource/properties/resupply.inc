@@ -650,6 +650,8 @@
 	{item "bullet_37x257" "eng"		"ap"	"ammo" 2 {value 5}}
 	{item "bullet_37x257" "eng"		"he"	"ammo" 2 {value 5}}
 
+	{item "bulletusa_37" "littlejohn" "apcr" "ammo" 2 {value 5}}
+
 	{item "bulleteng_40"		"ap"		"ammo" 2 {value 5}}
 	{item "bulleteng_40"		"ap2"		"ammo" 2 {value 5}}
 	{item "bulleteng_40"		"apcbc"		"ammo" 2 {value 5}}
